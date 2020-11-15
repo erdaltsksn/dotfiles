@@ -6,7 +6,6 @@ alias please='sudo $(fc -ln -1)'
 
 # Create shorter aliases for clear command.
 alias c=clear
-alias cls=clear
 
 # List all files including links with their metadata as a grid with header row.
 alias l="exa -laghHF --group-directories-first"
@@ -30,6 +29,3 @@ docs() {
 
 # Print IP address
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-
-# Launch ImageOptim from CLI.
-alias imageoptim="/Applications/ImageOptim.app/Contents/MacOS/ImageOptim"
