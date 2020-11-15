@@ -4,7 +4,6 @@
 set -e
 
 # Recreate symbolic links.
-ln -sf $HOME/.dotfiles/bin/ $HOME/
 ln -sf $HOME/.dotfiles/git/.gitconfig $HOME/
 if [ ! -d "$HOME/.gnupg" ]; then
     mkdir -p "$HOME/.gnupg/"
