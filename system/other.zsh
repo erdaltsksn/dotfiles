@@ -15,12 +15,8 @@ mkd() {
     mkdir -p "$@" && cd "$_"
 }
 
-# `ls` in a tree-like format ignoring the `exclude_list`, and listing dirs first
-# The output gets piped into `less` unless it is small enought for one screen.
-tre() {
-    exclude_list=".git|node_modules|bower_components|vendor"
-    tree -aCI $exclude_list --dirsfirst "$@" | less -FRNX
-}
+# List in a tree-like format ignoring the `exclude_list`, and listing dirs first.
+alias tree="exa --tree --all --ignore-glob='.git|node_modules|vendor' --group-directories-first"
 
 # Access online cheatsheets. Usage: docs command/subcommand.
 docs() {
