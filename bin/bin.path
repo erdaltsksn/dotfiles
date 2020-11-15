@@ -1,4 +1,0 @@
-# PATHs
-USERBIN="$HOME/bin"
-
-export PATH="$USERBIN:$PATH"

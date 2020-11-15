@@ -11,7 +11,6 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 - Lots of `aliases`, `functions`, and etc. sorted by category for easy reference
 - Lots of useful apps for developers and power users
 - `.dotsecret` folder for custom or private settings
-- `~/bin` folder for executable files
 - Configurations for `zsh`, `git`, `vim` and etc.
 - Visual Studio Code settings, keybindings, and extensions
 - Material theme for all possible environments (`zsh`, `terminal`, `vscode`, etc.)
