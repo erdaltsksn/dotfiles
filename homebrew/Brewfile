@@ -35,13 +35,6 @@ brew "fzf"
 # Search tool like grep, but optimized for programmers
 brew "ack"
 
-# GNU version of the tar archiving utility
-brew "gnu-tar"
-# Compression and file packaging/archive utility
-brew "zip"
-# Extraction utility for .zip compressed archives
-brew "unzip"
-
 # Vi 'workalike' with many additional features
 brew "vim"
 

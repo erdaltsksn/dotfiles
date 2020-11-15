@@ -1,6 +1,0 @@
-# PATHs
-TAR="/usr/local/opt/gnu-tar/libexec/gnubin"
-ZIP="/usr/local/opt/zip/bin"
-UNZIP="/usr/local/opt/unzip/bin"
-
-export PATH="$TAR:$ZIP:$UNZIP:$PATH"
