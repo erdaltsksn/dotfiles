@@ -50,9 +50,6 @@ $HOME/.dotfiles/scripts/preinstall
 # Install Homebrew apps.
 brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
 
-# Install Visual Studio Code Extensions.
-for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
-
 # Generate symbolic links.
 $HOME/.dotfiles/scripts/symlink
 
@@ -76,9 +73,6 @@ cd $HOME/.dotfiles && git pull && cd -
 
 # Install Homebrew apps.
 brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
-
-# Install Visual Studio Code Extensions.
-for i in $(cat ~/.dotfiles/vscode/extensions*); do code --install-extension $i; done
 
 # Generate symbolic links.
 $HOME/.dotfiles/scripts/symlink
