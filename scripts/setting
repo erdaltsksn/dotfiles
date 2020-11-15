@@ -3,9 +3,6 @@
 # Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Install Turkish <-> English dictionaries.
-cp -r $HOME/.dotfiles/macos/dictionary/* $HOME/Library/Dictionaries/
-
 # Avoid creating .DS_Store files on network or USB volumes.
 defaults write com.apple.desktopservices DSDontWriteNetworkStores 1
 defaults write com.apple.desktopservices DSDontWriteUSBStores 1

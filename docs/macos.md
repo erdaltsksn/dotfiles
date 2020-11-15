@@ -148,17 +148,6 @@ Favorites:
 
 - Format: Plain text
 
-## Dictionary.app
-
-Drag reference sources into the order your prefer:
-
-- English - Türkçe
-- Türkçe - English
-- New Oxford American Dictionary ( IPA )
-- Oxford American Writer's Thesaurus
-- Wikipedia (English, Türkçe)
-- Apple Dictionary
-
 ## Music.app > General
 
 - [x] Sync Library (username@icloud.com)
