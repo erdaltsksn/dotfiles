@@ -7,13 +7,13 @@ alias please='sudo $(fc -ln -1)'
 # Create shorter aliases for clear command.
 alias c=clear
 
-# List all files including links with their metadata as a grid with header row.
-alias l="exa -laghHF --group-directories-first"
-
 # Create a new folder and enter it.
 mkd() {
     mkdir -p "$@" && cd "$_"
 }
+
+# List all files including links with their metadata as a grid with header row.
+alias l="exa -laghHF --group-directories-first"
 
 # List in a tree-like format ignoring the `exclude_list`, and listing dirs first.
 alias tree="exa --tree --all --ignore-glob='.git|node_modules|vendor' --group-directories-first"

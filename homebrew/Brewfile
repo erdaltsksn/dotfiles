@@ -17,13 +17,6 @@ brew "m-cli"
 # Mac App Store command-line interface
 brew "mas"
 
-# GNU File, Shell, and Text utilities
-brew "coreutils"
-# Collection of GNU find, xargs, and locate
-brew "findutils"
-# Collection of tools that nobody wrote when UNIX was young
-brew "moreutils"
-
 # Modern replacement for 'ls'
 brew "exa"
 # Clone of cat(1) with syntax highlighting and Git integration
