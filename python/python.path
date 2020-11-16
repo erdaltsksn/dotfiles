@@ -1,4 +1,0 @@
-# PATHs
-PYTHON="/usr/local/opt/python/libexec/bin"
-
-export PATH="$PYTHON:$PATH"
