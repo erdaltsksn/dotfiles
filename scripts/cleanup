@@ -1,9 +1,0 @@
-#!/bin/bash
-
-# Exit immediately if a command exits with a non-zero status.
-set -e
-
-# Clean the clutter in the home folder.
-rm -rf .viminfo
-rm -rf .zcompdump-*
-rm -rf .zsh_history
