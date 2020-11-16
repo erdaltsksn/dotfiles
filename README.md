@@ -10,9 +10,7 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 
 - Lots of `aliases`, `functions`, and etc. sorted by category for easy reference
 - Lots of useful apps for developers and power users
-- `.dotsecret` folder for custom or private settings
 - Configurations for `zsh`, `git`, `vim` and etc.
-- Visual Studio Code settings, keybindings, and extensions
 - Material theme for all possible environments (`zsh`, `terminal`, `vscode`, etc.)
 - and many more
 
@@ -22,66 +20,21 @@ Dotfiles are how you personalize your system. These are mine for macOS.
 
 ## Getting Started
 
-`dotfiles` can be installed by running the following command **(NOT RECOMMENDED)**.
-Please use the [Installation](#installation) guide.
-
-```sh
-curl https://raw.githubusercontent.com/erdaltsksn/dotfiles/main/scripts/bootstrap.sh | bash
-```
-
-Check out [macOS Setting Guide](docs/macos.md) for more configurations.
+You can see [macOS Setup Guide](docs/macos-setup-guide.md) to learn how I setup
+my machine after clean install.
 
 ## Installation
 
-Before started to install the dotfiles (.files), it is recommended to `fork`
-this repository and customize it according to you.
+I **strongly** recommend to `fork` this dotfiles and customize it according to
+your taste before installation.
 
-```sh
-# Download and install all available updates for your system.
-softwareupdate -i -a
-
-# Check out the code into ~/.dotfiles directory.
-# Do not forget to change it to your fork.
-git clone https://github.com/erdaltsksn/dotfiles.git $HOME/.dotfiles
-
-# Install Prerequisites.
-$HOME/.dotfiles/scripts/preinstall
-
-# Install Homebrew apps.
-brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
-
-# Generate symbolic links.
-$HOME/.dotfiles/scripts/symlink
-
-# Apply the application settings.
-$HOME/.dotfiles/scripts/setting
-
-# Apply the input-required configurations.
-$HOME/.dotfiles/scripts/configure
-
-# Clean up.
-$HOME/.dotfiles/scripts/cleanup
-```
+See [Installation Guide](docs/macos-setup-guide.md#06-dotfiles) for dotfiles.
 
 ## Updating / Upgrading
 
 ```sh
 # Checkout out the repository and merge it
 cd $HOME/.dotfiles && git pull && cd -
-
-# The followings are OPTIONAL.
-
-# Install Homebrew apps.
-brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
-
-# Generate symbolic links.
-$HOME/.dotfiles/scripts/symlink
-
-# Apply the application settings.
-$HOME/.dotfiles/scripts/setting
-
-# Clean up.
-$HOME/.dotfiles/scripts/cleanup
 ```
 
 ## Usage
