@@ -15,40 +15,10 @@ jobs:
         os: [macOS-latest]
 
     steps:
-    - name: Clean up Installed Software
-      run: |
-        # Remove preinstalled apps
-        brew uninstall --force node && brew unlink node@12
-        brew cask uninstall --force google-chrome
-        # Remove any dead symlinks
-        brew cleanup --prune-prefix
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/main/uninstall.sh)"
-
     - name: Check out the code into $HOME/.dotfiles directory
       run: |
         git clone https://github.com/$GITHUB_REPOSITORY.git $HOME/.dotfiles
 
-    - name: Download and install all available updates for your system
+    - name: Install Dotfiles
       run: |
-        softwareupdate -i -a
-
-    - name: Install Prerequisites
-      run: |
-        $HOME/.dotfiles/scripts/preinstall
-
-    - name: Install Homebrew apps
-      run: |
-        export HOMEBREW_BUNDLE_MAS_SKIP="409201541 409203825 409183694 1440147259 1462114288 408981434 497799835"
-        brew update && brew bundle --file=$HOME/.dotfiles/homebrew/Brewfile
-
-    - name: Generate symbolic links
-      run: |
-        $HOME/.dotfiles/scripts/symlink
-
-    - name: Apply the application settings
-      run: |
-        $HOME/.dotfiles/scripts/setting
-
-    - name: Cleanup
-      run: |
-        $HOME/.dotfiles/scripts/cleanup
+        $HOME/.dotfiles/scripts/install.sh
