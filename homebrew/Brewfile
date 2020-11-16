@@ -31,8 +31,6 @@ brew "vim"
 
 # Distributed revision control system
 brew "git"
-# Good-lookin' diffs with diff-highlight and more
-brew "diff-so-fancy"
 # Semantic Version Bumper using git tag
 brew "erdaltsksn/tap/git-bump"
 
