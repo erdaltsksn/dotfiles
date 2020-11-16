@@ -28,7 +28,8 @@ my machine after clean install.
 I **strongly** recommend to `fork` this dotfiles and customize it according to
 your taste before installation.
 
-See [Installation Guide](docs/macos-setup-guide.md#06-dotfiles) for dotfiles.
+Checkout [Installation Guide](docs/macos-setup-guide.md#06-dotfiles) for detailed
+instruction.
 
 ## Updating / Upgrading
 
