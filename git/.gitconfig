@@ -1,5 +1,7 @@
-[include]
-    path = ~/.dotsecret/.gitconfig
+[user]
+    name = Erdal TAŞKESEN
+    email = erdal@taskesen.me
+    signingKey = 59A48E85C4A36006
 
 [help]
     autocorrect = 1
