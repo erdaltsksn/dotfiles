@@ -11,22 +11,11 @@ plugins=(zsh-autosuggestions)
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="materialshell-electro"
 
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd".
-HIST_STAMPS="yyyy-mm-dd"
-
 # Enable auto-upgrade.
 DISABLE_UPDATE_PROMPT=true
 
 # Set How often to auto-update (in days).
 export UPDATE_ZSH_DAYS=7
-
-# Set Default editor.
-export EDITOR=vim
-export VISUAL=$EDITOR
-
-# Set Language.
-export LC_ALL='en_US.UTF-8'
-export LANG='en_US.UTF-8'
 
 # Create a cache folder if it isn't exists.
 if [ ! -d "$HOME/.cache/zsh" ]; then
