@@ -1,17 +1,19 @@
 [include]
     path = ~/.dotsecret/.gitconfig
+
 [help]
     autocorrect = 1
+
 [core]
     excludesfile = ~/.dotfiles/git/.gitignore
-    precomposeunicode = false
     pager = diff-so-fancy | less --tabs=4 -RFX
+
 [init]
     defaultBranch = main
+
 [commit]
     template = ~/.dotfiles/git/.gittemplate
     gpgsign = true
+
 [pull]
     ff = only
-[color]
-    ui = auto
