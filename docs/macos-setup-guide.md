@@ -137,6 +137,12 @@ Login App Store with your credentials and install the following applications.
 - [Grammarly for Safari](https://apps.apple.com/app/grammarly-for-safari/id1462114288)
   - Do not forget to **activate** it after installation
 
+- [Coin Tick - Menu Bar Crypto](https://apps.apple.com/app/coin-tick-menu-bar-crypto/id1141688067)
+  - *Options*
+    - [x] Launch at login
+    - Font Size > `Medium`
+    - Price precision digits > `6 digits`
+
 ## 04. CLI Applications
 
 You should install `Homebrew` to install these applications easily.
