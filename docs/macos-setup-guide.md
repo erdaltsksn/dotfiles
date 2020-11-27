@@ -191,7 +191,7 @@ Install these application from their official website or via `homebrew cask`.
 - [Google Chrome](https://www.google.com/chrome/) is a freeware web browser
   developed by Google.
 
-- [TablePlus](https://tableplus.com) is an modern native SQL client and a
+- [TablePlus](https://tableplus.com) is a modern native SQL client and a
   database administration tool.
 
 - [ImageOptim](https://imageoptim.com/mac) makes images load faster.
@@ -202,6 +202,12 @@ Install these application from their official website or via `homebrew cask`.
   environment for API developers.
   - Settings > Themes
     - `Dark`
+
+- [Zoom](https://zoom.us) is a cloud platform for video and audio conferencing,
+  chat, and webinars.
+  - Settings > Audio
+    - Input Volume: **Highest**
+    - [ ] Automatically adjust microphone volume
 
 ## 06. Dotfiles
 
