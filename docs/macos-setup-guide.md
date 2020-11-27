@@ -122,6 +122,10 @@ Login App Store with your credentials and install the following applications.
 - [Paste - Clipboard Manager 💵](https://apps.apple.com/app/paste-clipboard-manager/id967805235)
 
 - [Telegram](https://apps.apple.com/app/telegram/id747648890)
+  - **Settings > General**
+    - [ ] Show Icon in Menu Bar
+  - **Settings > Chat folders**
+    - TABS VIEW: Tabs on the left
 
 - [WhatsApp Desktop](https://apps.apple.com/app/whatsapp-desktop/id1147396723)
 
