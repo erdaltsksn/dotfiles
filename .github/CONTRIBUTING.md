@@ -8,8 +8,8 @@ project. Thank you for helping out and remember, no contribution is too small.
 
 ## Prerequisites
 
-- [macOS](https://www.apple.com/macos/)
 - [Git](https://git-scm.com)
+- [macOS](https://www.apple.com/macos/)
 
 ## Step by step contribution guide
 
