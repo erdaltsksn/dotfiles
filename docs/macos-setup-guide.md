@@ -42,7 +42,7 @@ This guide helps you setup a development machine step by step.
   - Add more fingers (Add at least one finger from each hand)
 
 - **Security & Privacy > General**
-  - [x] Require password **immediately** after sleep or screen saver begins
+  - [x] Require password `immediately` after sleep or screen saver begins
 
 - **Software Update**
   - [x] Automatically keep my Mac up to date
@@ -51,8 +51,8 @@ This guide helps you setup a development machine step by step.
   - [x] Show Bluetooth in menu bar
 
 - **Keyboard > Keyboard**
-  - Key Repeat: Fast
-  - Delay Until Repeat: Short
+  - Key Repeat: `Fast`
+  - Delay Until Repeat: `Short`
 
 - **Keyboard > Text**
   - Remove all replacements
@@ -62,11 +62,11 @@ This guide helps you setup a development machine step by step.
   - [ ] Use smart quotes and dashes
 
 - **Keyboard > Dictation**
-  - Dictation: On
-  - Language > Add language => Turkey | Turkish
+  - Dictation: `On`
+  - Language > Add language... > `Turkish (Turkey)`
 
 - **Trackpad > Point & Click**
-  - Tracking speed: Fast
+  - Tracking speed: `Fast`
 
 - **Sharing**
   - Computer Name: `Hydrogen-MacBook`
@@ -87,8 +87,10 @@ This guide helps you setup a development machine step by step.
 
 - **Finder > Advanced**
   - [x] Show all filename extensions
-  - **Keep folder on top:** [x] In windows when sorting by name
-  - **When performing a search:** Search The Current Folder
+  - Keep folder on top:
+    - [x] In windows when sorting by name
+  - When performing a search:
+    - `Search The Current Folder`
 
 - **Safari > General**
   - [ ] Open "safe" files after downloading
@@ -138,7 +140,7 @@ Login App Store with your credentials and install the following applications.
   - Do not forget to **activate** it after installation
 
 - [Coin Tick - Menu Bar Crypto](https://apps.apple.com/app/coin-tick-menu-bar-crypto/id1141688067)
-  - *Options*
+  - **Options**
     - [x] Launch at login
     - Font Size > `Medium`
     - Price precision digits > `6 digits`
@@ -177,9 +179,9 @@ Install these application from their official website or via `homebrew cask`.
 
 - [AppCleaner](https://freemacsoft.net/appcleaner/) is a small application
   remove leftovers from uninstalled apps.
-  - Preferences > Smart Delete
-    - **ON**
-  - Preferences > Updates
+  - **Preferences > Smart Delete**
+    - `ON`
+  - **Preferences > Updates**
     - [x] Check updates automatically
 
 - [Docker](https://www.docker.com/) is a virtualization to deliver software in
@@ -201,18 +203,18 @@ Install these application from their official website or via `homebrew cask`.
   database administration tool.
 
 - [ImageOptim](https://imageoptim.com/mac) makes images load faster.
-  - Preferences > Optimization speed
-    - Optimization level: **Insane**
+  - **Preferences > Optimization speed**
+    - Optimization level: `Insane`
 
 - [Postman](https://www.postman.com/) is the only complete API development
   environment for API developers.
-  - Settings > Themes
+  - **Settings > Themes**
     - `Dark`
 
 - [Zoom](https://zoom.us) is a cloud platform for video and audio conferencing,
   chat, and webinars.
-  - Settings > Audio
-    - Input Volume: **Highest**
+  - **Settings > Audio**
+    - Input Volume: `Highest`
     - [ ] Automatically adjust microphone volume
 
 ## 06. Dotfiles
