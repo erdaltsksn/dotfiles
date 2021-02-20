@@ -68,8 +68,8 @@ This guide helps you setup a development machine step by step.
 - **Trackpad > Point & Click**
   - Tracking speed: `Fast`
 
-- **Battery > Battery**
-  - Turn display off after: `Never`
+- **Battery > Power Adapter**
+  - Turn display off after: `Never`s
 
 - **Sharing**
   - Computer Name: `Hydrogen-MacBook`
