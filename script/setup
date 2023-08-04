@@ -25,4 +25,4 @@ fi
 rm -rf "$XDG_CONFIG_HOME/fish"
 ln -sf "$XDG_CONFIG_HOME/dotfiles/fish" "$XDG_CONFIG_HOME/"
 
-printf "==> App is now ready to go!"
+echo "==> App is now ready to go!"
