@@ -1,0 +1,28 @@
+#!/bin/sh
+
+# script/setup: Set up application for the first time after cloning, or set it
+#               back to the initial first unused state.
+
+# Terminate immediately if any following command within the script fails or
+# returns a non-zero exit status.
+set -e
+
+# Define the environment variables for the script.
+XDG_CONFIG_HOME="$HOME/.config"
+DOTFILES_HOME="${XDG_CONFIG_HOME}/dotfiles"
+
+# Change the current directory to the parent directory of the script's location.
+cd "$(dirname "$0")/.."
+
+# Checks if the dotfiles directory doesn't exist, and if so, it clones a GitHub
+# repository containing dotfiles into that directory.
+if [ ! -d "$DOTFILES_HOME" ]; then
+    git clone "https://github.com/erdaltsksn/dotfiles.git" "$DOTFILES_HOME"
+fi
+
+# Remove the existing configurations and create symbolic links to new
+# configuration locations within the XDG config directory.
+rm -rf "$XDG_CONFIG_HOME/fish"
+ln -sf "$XDG_CONFIG_HOME/dotfiles/fish" "$XDG_CONFIG_HOME/"
+
+printf "==> App is now ready to go!"
