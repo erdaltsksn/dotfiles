@@ -42,7 +42,7 @@ your taste before installation. Here's how:
     Feel free to modify configurations, add new files, or remove ones you don't
     need.
 03. **Run the Setup Script**: Modify the original setup script (`script/setup`)
-    to reflect your changes and preferences or create your own setup script. 
+    to reflect your changes and preferences or create your own setup script.
 
 Once the installation is complete, restart your shell or terminal for the
 changes to take effect.
