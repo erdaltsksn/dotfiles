@@ -1,38 +1,88 @@
-# {{ Project Name }}
+# Erdal's Dotfiles (.files)
 
-[![Security Scan](https://github.com/erdaltsksn/new-project/actions/workflows/security-scan.yml/badge.svg)](https://github.com/erdaltsksn/new-project/actions/workflows/security-scan.yml)
+[![Security Scan](https://github.com/erdaltsksn/dotfiles/actions/workflows/security-scan.yml/badge.svg)](https://github.com/erdaltsksn/dotfiles/actions/workflows/security-scan.yml)
 
-{{ Description }}
+Dotfiles are configuration files on Unix-like systems (including Linux and macOS)
+that start with a dot or period, such as `.bashrc`, `.zshrc`, and `.vimrc`.
 
-![Screenshot](assets/screenshot.png)
+These files are used to customize the behavior and appearance of various
+software applications and tools in a user's environment. Dotfiles play a crucial
+role in tailoring a development environment to an individual's preferences and
+needs.
 
 ## ✨ Features
 
-- TODO
+- Tailored specifically for GitHub's CodeSpaces and Linux Universal DevCtontainer
+  Image
+- Optimized Fish shell environment with streamlined configuration and functions
 
 ## 📋 Requirements
 
-- [TODO](TODO)
+- **[Git](https://git-scm.com/)**: The version control system is required to
+  clone the repository and manage updates.t
+- **[Docker](https://www.docker.com/)**: Utilized for creating and managing
+  isolated development environments using DevContainers.
+- **[Visual Studio Code](https://code.visualstudio.com)**: The recommended code
+  editor for seamless integration with Codespaces and DevContainers.
+- **[Fish Shell](https://fishshell.com/)**: The feature-rich and user-friendly
+  shell that enhances your command-line experience.
+
+> **Note**: If you're using GitHub Codespaces and the default universal Linux
+> image, all of these requirements are already met in the environment provided,
+> allowing you to enjoy the benefits of these dotfiles without manual setup.
 
 ## 🏁 Getting Started
 
-TODO
+I **strongly** recommend you `fork` this project and customize it according to
+your taste before installation. Here's how:
+
+01. **Fork the Repository**: Start by forking this repository to your own GitHub
+    account by clicking the`Fork` button at the top-right corner of this page.
+02. **Customize Configuration**: Customize the forked dotfiles to your taste.
+    Feel free to modify configurations, add new files, or remove ones you don't
+    need.
+03. **Run the Setup Script**: Modify the original setup script (`script/setup`)
+    to reflect your changes and preferences or create your own setup script. 
+
+Once the installation is complete, restart your shell or terminal for the
+changes to take effect.
 
 ## 🔧 Installation
 
-TODO
+Copy and paste the following command into your terminal and press Enter:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/erdaltsksn/dotfiles/main/script/setup | sh
+```
 
 ## 🔄 Updating / Upgrading
 
-TODO
+Pull the latest changes from the repository.
+
+```sh
+cd $HOME/.config/dotfiles && git pull && cd -
+```
+
+Run the setup script again.
+
+```sh
+$HOME/.config/dotfiles/script/setup
+```
 
 ## 📝 Usage
 
-TODO
+Use your terminal regularly and enjoy awesome functions and customizations. Run
+`fish_config` to launch fish's web-based configuration.
 
 ## ❓ Getting Help
 
-TODO
+You can find some useful links below:
+
+- [https://dotfiles.github.io](https://dotfiles.github.io)
+- [https://fishshell.com](https://fishshell.com)
+- [https://git-scm.com](https://git-scm.com)
+- [https://code.visualstudio.com/docs/remote/containers](https://code.visualstudio.com/docs/remote/containers)
+- [https://containers.dev](https://containers.dev)
 
 ## 🤝🏽 Contributing
 
