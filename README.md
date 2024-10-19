@@ -19,7 +19,7 @@ needs.
 ## 📋 Requirements
 
 - **[Git](https://git-scm.com/)**: The version control system is required to
-  clone the repository and manage updates.t
+  clone the repository and manage updates.
 - **[Docker](https://www.docker.com/)**: Utilized for creating and managing
   isolated development environments using DevContainers.
 - **[Visual Studio Code](https://code.visualstudio.com)**: The recommended code
