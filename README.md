@@ -1,7 +1,5 @@
 # Erdal's Dotfiles (.files)
 
-[![Security Scan](https://github.com/erdaltsksn/dotfiles/actions/workflows/security-scan.yml/badge.svg)](https://github.com/erdaltsksn/dotfiles/actions/workflows/security-scan.yml)
-
 Dotfiles are configuration files on Unix-like systems (including Linux and macOS)
 that start with a dot or period, such as `.bashrc`, `.zshrc`, and `.vimrc`.
 
